@@ -1,0 +1,12 @@
+1. Initialize express app
+2. Initialize your database
+3. Connect to your database
+4. Add start script
+5. Initialize es-lint
+6. Create migrations
+7. Task:
+    * Write your database query
+    * Write your service (calls the database query) **always async
+    * Think about any errors and create appropriate middleware (Ex: input validation, token checks) **(req, res, next)
+    * Write your controller **(req, res)
+    * Create our route
