@@ -12,7 +12,7 @@ const createUserInputValidation = (req, res, next) => {
     if (typeof password !== 'string' || password.length < 8) {
       return sendResponse(res, null, 'Invalid password', 400);
     }
-
+    
     return next();
   } catch (error) {
     return next(error);
